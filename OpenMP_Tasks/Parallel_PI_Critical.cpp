@@ -1,3 +1,6 @@
+//Version--4 of PI problem
+//Now ,Each thread computes a local sum entirely in a private variable (no sharing ).
+//At the end, each thread enters a #pragma omp critical section to safely add its partial result to pi
 #include <iostream>
 #include <iomanip>
 #include <omp.h>
