@@ -1,3 +1,5 @@
+//Version--3 of PI problem
+//now, we add padding so that each thread's slot (sum[id][0]) is now separated by 8 doubles = 64 bytes, ensuring each thread's data occupies its own cache line
 #include <iostream>
 #include <iomanip>
 #include <omp.h>
