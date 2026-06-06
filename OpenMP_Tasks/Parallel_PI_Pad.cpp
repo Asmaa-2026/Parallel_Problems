@@ -8,7 +8,7 @@ static long num_steps = 100000;
 double step;
 
 #define NUM_THREADS 4
-#define PAD 8   // 64-byte cache line
+#define PAD 8   
 
 int main()
 {
