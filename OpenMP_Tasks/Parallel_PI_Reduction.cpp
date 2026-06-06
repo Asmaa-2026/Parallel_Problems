@@ -1,3 +1,5 @@
+//version--5 of PI problem 
+//pragma omp for reduction(+:sum) clause, the cleanest and most idiomatic solution
 #include <iostream>
 #include <iomanip>
 #include <omp.h>
