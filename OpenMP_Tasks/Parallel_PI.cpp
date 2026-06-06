@@ -1,3 +1,5 @@
+//Version--1 of PI problem:- 
+//This code convert sequential PI problem into Parallel solution but it has race condition because all threades access the shared variables
 #include<iostream>
 #include <iomanip>
 #include<omp.h>
