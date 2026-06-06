@@ -4,7 +4,7 @@
 
 using namespace std;
 
-static long num_steps = 100000000;
+static long num_steps = 100000;
 double step;
 
 #define NUM_THREADS 4
