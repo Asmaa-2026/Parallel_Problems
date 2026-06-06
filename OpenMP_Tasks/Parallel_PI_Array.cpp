@@ -1,3 +1,6 @@
+//Version--2 of PI problem
+//We try to solve the race condition problem by using array and each thread calculate it's partial sum and store it in slot of the array 
+//we still have the problem of false sharing
 #include <iostream>
 #include <omp.h>
 #include <iomanip>
